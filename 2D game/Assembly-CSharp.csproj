@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AimScript.cs" />
+    <Compile Include="Assets\MenuManager.cs" />
     <Compile Include="Assets\Player\Grounded.cs" />
     <Compile Include="Assets\Player\Move2D.cs" />
     <Compile Include="Assets\Player\PlayerController.cs" />
