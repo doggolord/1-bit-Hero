@@ -48,3 +48,6 @@ TagManager:
   - name: gun
     uniqueID: 3439005565
     locked: 0
+  - name: overlay
+    uniqueID: 1194683683
+    locked: 0
