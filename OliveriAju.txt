@@ -1,0 +1,48 @@
+wall jump bug
+tilemap walk bug
+Enemite peast saaks hüpata
+ Enemite vastu minnes võtad dmg või lic lähed läbi?
+Different enemies
+ -Kollane(või oranz)triangle kiirem ja väiksem, vähem elusid ja proovib sind melee-da
+ -Sinine(tumedam punane)ristkülik ja paksem, rohkem elusid, laseb shotgunniga
+ -Lilla viisnurk, kellel slow af firerate aga tulistab rocketlauncheriga
+ -Pikem kolmnurk, rohkem passive, hoiab tahapoole, kasutab sniperit
+ -Mingi hovering ovaal, mis dropib väiksemaid ovaale, kes chase-ivad sind, aga suht aeglaselt
+ -Hovering helesinine kolmnurk, kes on väikse oranzi õhus lendav counter part
+ -Obv mida rohkem dmg-it teeb, seda low-im accuracy on neil, nagu peaaegu lasevad mööda
+ -Gungeonis on need paar enemit, kes eeldavad, kus player läheb??? Ei tea kui palju apply-ib Meie mängule
+ -Kui teeb hitscan weaponeid ss bot-ide aim/firerate peab suht pask olema, et fair tunduks
+
+Health system
+ -Playeril 100 elu
+ -Erinevad vaenlased teevad vähem/rohkem dmg
+ -Dmg dropoff???, Kui mingi sniper laseb sind offscreen/väga ääre lähedal ss ta ei tee mingi üüratult dmg, sest muidu tundub unfair game
+
+Erinevad relvad
+ -Shotgun
+ -SMG
+ -Deagle aeglasem firerate aga teeb rohkem dmg
+ -Rocketlauncher, mille rocketid seek-ivad ise enemy-isid või nagu half-life-is/gmod-is on ss rocket followib hiirt
+ -Plasma SMG, pmst nagu see lilla HALO alien püstol, kus kuulid lähevad enemy, sisse ja alles mingi 1.5 sec-i pärast fizzle-ib out-i, trade off on selles, et dmg jääb veits hiljaks aga on see eest suurem 
+
+
+Levelites
+ -Jumppads, kui seal väikses alas hüpata ss hüppad sitaks kõrgemale, mingi platformi peale, (enemyd saavad ka kasutada)
+ -Pickup-able healthpacks, mingi double dmg pickup, (activatable)shield - paar sec-i dmg resistance
+Kas me üldse teeme falldmg-i???
+Kui teeme, ss jumppadi kasutades see sitaks madalaks teha, kui nagu platformi miss-id
+ -Explosive barrels, oleks cool af, kui saad mingi 3 vaenlast korraga õhku lasta
+ -Mingi debris, mis lendab ringi kui lasta/explosionid on, aga kuulidega neil collisionit pole, aga physics ikka affectib neid???
+Kas enemitel on ragdollid?
+Kui lased enemy-t ss tuleb bloodparticle???
+
+
+Kui muudad volume-i main menus see jääks samaks teistes levelites ka
+Saaksid pause menus settinguid muuta (põhiliselt volume)
+Üldse rohkem settinguid
+ -Quality
+ -Mingi anti-aliasing ???
+ -Resolution
+ -Key remappings
+ -Jne
+ -Mida üldse meil muuta oleks vaja arvestades, et Meil on small/simple as fuck game
