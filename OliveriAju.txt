@@ -18,6 +18,10 @@ Health system
  -Erinevad vaenlased teevad vähem/rohkem dmg
  -Dmg dropoff???, Kui mingi sniper laseb sind offscreen/väga ääre lähedal ss ta ei tee mingi üüratult dmg, sest muidu tundub unfair game
 
+Tutorial
+ -Suht fundemental new player experiance
+ -Kui me üldse kavatseme mingi õpetajatele seda esitada (lasta neil mängida seda) siis ikka suht tähtis, et Triin saaks aru, et wasd liigud ja double jump jne
+
 Erinevad relvad
  -Shotgun
  -SMG
