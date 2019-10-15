@@ -24,7 +24,7 @@ Erinevad relvad
  -Deagle aeglasem firerate aga teeb rohkem dmg
  -Rocketlauncher, mille rocketid seek-ivad ise enemy-isid või nagu half-life-is/gmod-is on ss rocket followib hiirt
  -Plasma SMG, pmst nagu see lilla HALO alien püstol, kus kuulid lähevad enemy, sisse ja alles mingi 1.5 sec-i pärast fizzle-ib out-i, trade off on selles, et dmg jääb veits hiljaks aga on see eest suurem 
-
+ -Gun millega stop-id aega, lased bulletid ära, ja ss vajutad resume ja kõik lendavad korraga edasi
 
 Levelites
  -Jumppads, kui seal väikses alas hüpata ss hüppad sitaks kõrgemale, mingi platformi peale, (enemyd saavad ka kasutada)
