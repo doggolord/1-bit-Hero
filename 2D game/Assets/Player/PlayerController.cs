@@ -2,37 +2,65 @@
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
+  public float speed = 5f;
+  private float movement = 0f;
+  public float jumpPower = 4f;
+	public bool candoublejump;
+	public bool isGrounded = false;
+  private Rigidbody2D rigidBody;
+  public ParticleSystem Death;
+  public ParticleSystem Jumping;
+  public static bool D;
 
-public float moveSpeed;
-public float jumpHeight;
+  // Use this for initialization
+  void Start () {
+    rigidBody = GetComponent<Rigidbody2D> ();
+    Death.Stop();
+    Jumping.Stop();
+  }
+  
+  // Update is called once per frame
+  void Update () {
+    Jump();
+    movement = Input.GetAxis ("Horizontal");
 
-public Transform groundCheck;
-public float groundCheckRadius;
-public LayerMask whatIsGround;
-private bool grounded;
+    if (movement > 0f) {
+      rigidBody.velocity = new Vector2 (movement * speed, rigidBody.velocity.y);
+    }
+    else if (movement < 0f) {
+      rigidBody.velocity = new Vector2 (movement * speed, rigidBody.velocity.y);
+    }
+    else {
+      rigidBody.velocity = new Vector2 (0,rigidBody.velocity.y);
+    }
 
-// Use this for initialization
-void Start () {
-}
+    if (PlayerStats.Lives <= 0)
+    {
+      Blood();
+      D = true;
+    }
+  }
+  
+  void Jump (){
+		if (Input.GetButtonDown("Jump")){
+			if(isGrounded == true){
+        gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpPower), ForceMode2D.Impulse);
+        candoublejump = true;
+        Instantiate (Jumping, transform.position, transform.rotation);		
+        Jumping.Play();
+  
+			} else if (candoublejump) {
+        rigidBody.velocity = Vector3.zero;
+				candoublejump = false;
+				gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpPower), ForceMode2D.Impulse);
+        Instantiate (Jumping, transform.position, transform.rotation);		
+        Jumping.Play();
+      }
+		}
+	}
 
-void fixedUpdate() {
-
-grounded = Physics2D.OverlapCircle (groundCheck.position, groundCheckRadius, whatIsGround);
-}
-// Update is called once per frame
-void Update () {
-
-if (Input.GetKeyDown (KeyCode.W)) {
-GetComponent<Rigidbody2D> ().velocity = new Vector2 (GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
-}
-
-if (Input.GetKey (KeyCode.D)) {
-GetComponent<Rigidbody2D> ().velocity = new Vector2 (moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
-}
-
-if (Input.GetKey (KeyCode.A)) {
-GetComponent<Rigidbody2D> ().velocity = new Vector2 (-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
-}
-
-}
+  void Blood() {
+    Instantiate (Death, transform.position, transform.rotation);		
+    Death.Play();
+  }
 }
