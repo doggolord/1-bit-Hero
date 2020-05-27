@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  - Deathbox
+  - Gun
+  - JumpPad
+  - P_AR
+  - P_Pistol
+  - P_Minigun
+  - P_Health
+  - P_Ammo
+  - P_Sniper
+  - P_Shotgun
+  - P_Uzi
+  - P_SMG
+  - P_Goldengun
+  - P_BOW1
+  - P_BOW2
+  - P_Cannon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - ground
+  - enemyBullet
+  - playerBullet
+  - player
+  - enemy
+  - invisible to player
+  - PickUp
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: player
+    uniqueID: 1950736977
+    locked: 0
+  - name: gun
+    uniqueID: 3439005565
+    locked: 0
+  - name: overlay
+    uniqueID: 1194683683
+    locked: 0
+  - name: ground
+    uniqueID: 360571119
+    locked: 0
