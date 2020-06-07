@@ -10,6 +10,3 @@ https://kak-my.sharepoint.com/:b:/g/personal/oliver_luup_ametikool_ee/EVBDcc1yMo
 
 Link to 2020 Report
 https://kak-my.sharepoint.com/:b:/g/personal/oliver_luup_ametikool_ee/ER2ncMTUBYhMihiICdg45DMBow0biTwQPHGn09_tiArlFQ?e=In1fQc
-
-
-:b::b::B::B::b:
